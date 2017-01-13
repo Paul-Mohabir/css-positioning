@@ -10,62 +10,63 @@ html {
   font-size: 100%; /* this will be 16px on most browsers */
   line-height: 1.5; /* this is a multiple of the font size (1.5 * 16px = 24px) */
 }
-
-body {
-  margin: 0;
-  position: relative;
-  padding: 0px
-}
-
-.film-title{
-  display: inline-block;
-  box-sizing: border-box;
-  position: relative;
-  bottom: 80px;
-}
-
- .film-poster{
-  margin: 0;
-  padding: 30px;
-  border: 1px solid black;
+img{
   width: 100%;
 }
-img {
-    position: relative;
-    display: inline-block;
-    box-sizing: border-box;
-    width: 25%;
-    padding: 0px
+body {
+  margin: 0;
+  padding: 0px
 }
-.film-details {
-    display: inline-block;
-    box-sizing: border-box;
+.film{
+  display:block;
+  width: 700px;
+  margin: 0 auto;
+  border: 10px double black;
+  position: relative;
+  overflow: hidden;
+}
+img {
+}
+figure.film-poster {
+    margin: 0 auto;
+    /* display: inline-block; */
+    padding: 0px;
     position: relative;
-    font-size: 25px;
-    bottom: 545px;
-    left: 400px;
+    float: left;
     width: 50%;
 }
-.film-description{
-  display: inline-block;
-  box-sizing: border-box;
-  position: relative;
-  bottom: 100px;
-}
 .action-watch-later {
-    box-sizing: border-box;
-    display: block;
-    position: relative;
-    bottom: 510px;
-    left: 300px;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
     color: red;
 }
-.action-like {
-    box-sizing: border-box;
+h1.film-title {
     display: inline-block;
-    position: absolute  ;
-    top: 460px;
-    left: 550px;
-    width: 30%;
+    /* position: relative; */
+    left: 460px;
+    bottom: 490px;
+}
+.film-details {
+    margin: 0 auto;
+    float: right;
+    padding: 10px;
+    width: 50%;
+    right: 0;
+    top: 0;
+}p.film-description {
+    display: block;
+    /* position: relative; */
+    left: 480px;
+    bottom: 503px;
+    width: 300px;
+
+}
+.action-like {
+    DISPLAY: inline-block;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
     color: red;
 }
