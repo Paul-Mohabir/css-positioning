@@ -13,17 +13,59 @@ html {
 
 body {
   margin: 0;
+  position: relative;
+  padding: 0px
 }
 
-img {
-  max-width: 100%;
+.film-title{
+  display: inline-block;
+  box-sizing: border-box;
+  position: relative;
+  bottom: 80px;
 }
 
-figure {
+ .film-poster{
   margin: 0;
+  padding: 30px;
+  border: 1px solid black;
+  width: 100%;
 }
-
-.film {
-  width: 50%;
-  margin: 40px auto;
+img {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 25%;
+    padding: 0px
+}
+.film-details {
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    font-size: 25px;
+    bottom: 545px;
+    left: 400px;
+    width: 50%;
+}
+.film-description{
+  display: inline-block;
+  box-sizing: border-box;
+  position: relative;
+  bottom: 100px;
+}
+.action-watch-later {
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    bottom: 510px;
+    left: 300px;
+    color: red;
+}
+.action-like {
+    box-sizing: border-box;
+    display: inline-block;
+    position: absolute  ;
+    top: 460px;
+    left: 550px;
+    width: 30%;
+    color: red;
 }
